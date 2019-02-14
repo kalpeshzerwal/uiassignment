@@ -1,1 +1,53 @@
 /*All the styles related to your pages while go here */
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+.header{
+ 	
+ 		margin:-7px -6px 0px;
+ 	    color:black;
+ 	    
+ 	    padding:5px; 
+ 	    top:20px;
+ 	    left:10px;
+ 	    float:left;
+
+ }
+.border {
+	margin-top:150px;
+	border: 1px solid black;
+	width: 75%;
+    min-height: 390px;
+    margin-left: 83px;
+
+
+}  
+.container{
+	
+	width:100%;
+	
+	float:left;
+	padding:1px;
+
+
+}
+.img{
+	
+	float:right;
+	width:100px;
+	height:100px;
+	margin: 10px;
+
+	 
+}
+.tech-container{
+
+	width:10px;
+	margin-top: 50px;
+	
+	float:left;
+	padding:1px;
+
+}
