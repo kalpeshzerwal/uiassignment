@@ -1,5 +1,72 @@
 
 
+/*All the styles related to your pages while go here */
+
+.about{
+  text-align: center;
+    margin-left: 550px;
+}
+.outside-border {
+  margin-top:250px;
+  border: 1px solid black;
+  width: 50%;
+  min-height: 250px;
+  margin-left: 83px;
+
+
+}  
+.paragraph{
+  
+  width:100%;
+  margin-top:21px;
+  float:left;
+  padding:1px;
+  text-align: center;
+  background: white;
+
+
+}
+.white-backgrd
+{
+  background-color: white;
+    float: left;
+}
+.img{
+  
+  
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  margin-left: 517px;
+
+   
+}
+.tech-container{
+
+  width:250px;
+  margin-top: 10px;
+  
+  float:left;
+  padding:1px;
+}
+.photos{
+
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 104px;
+      margin-bottom: 50px;
+}
+
+.backgrd{
+ background-color: white;
+
+}
+
+/*/*All the styles related to your pages while go here */
+
+
 body {
   background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
@@ -16,7 +83,7 @@ footer{
   margin-top: 200px;
 }
 
-.iphone-six{
+.intro{
   width:100%;
   height: 500px;
   background-color:white;
@@ -24,12 +91,10 @@ footer{
   margin-top: 400px;
 }
 
-
 *{
 
 	margin: 0px;
 	padding: 0px;
-  font-family: arial;
 }
 .header{
 	width: 100%;
@@ -47,6 +112,11 @@ footer{
 	font-size: 75px;
 }
 
+.about-footer
+{
+  margin-top:0px;
+}
+
 .menu{
 	float: left;
 	margin-left: 70px;
@@ -61,7 +131,7 @@ footer{
   cursor: pointer;
 }
 
-.menu ul li a:hover{
+.menu ul li:hover{
 	color:grey;
 
 }
@@ -97,8 +167,6 @@ footer{
     border-radius: 124px 0px 125px 0px;
     width: 50px;
 }
-
-
 
 .borderclass{
 
@@ -195,7 +263,7 @@ fieldset{
 
 h3 {
         text-shadow: 2px 2px 5px #fbfbfb;
-    color: white;
+    color: black;
         margin-bottom: 15px;
 }
 .container2{
@@ -213,30 +281,19 @@ h3 {
 }
 
 .left-div{
-  background-color: #EEEEEE;
+  background-color: grey;
   width:49%;
   height: 490px;
   float:left;
   margin:5px;
-  background-image: url("../images/left.png");
-  background-repeat: no-repeat;
 }
 .right-div{
-  background-color: #EEEEEE;
+  background-color: grey;
   width:49%;
   height: 490px;
   float:left;
   margin:5px;
-  background-image: url("../images/right.png");
-  background-repeat: no-repeat;
-}
 
-.content-div{
-  background-color: #EEEEEE;
-  width:49%;
-  height: 490px;
-  float:left;
-  margin:5px;
 }
 .iphone-other{
   width:100%;
