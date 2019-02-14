@@ -169,7 +169,7 @@ footer{
 	  border:1px solid black;
 	  margin: auto;
     width: 40%;
-  	border: 3px solid white;
+  	/*border: 3px solid white;*/
   	padding: 30px;
   	
 }
@@ -266,6 +266,28 @@ h3 {
   margin-left: 229px;
 }
 
-.transparent{
+.transparent1{
   background: transparent;
+  border:1.9px solid white;
+ 
+  height:40px;
+  margin-left: 11px;
+}
+.transparent2{
+  background: transparent;
+  border:1.9px solid white;
+  margin-left:3.9%;
+  height:40px;
+}
+.transparent3{
+  background: transparent;
+  border:1.9px solid white;
+  margin-left:3.7%;
+  height:40px;
+}
+.transparent4{
+  background: transparent;
+  border:1.9px solid white;
+  margin-left:4%;
+  margin-top:5px;
 }
