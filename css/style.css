@@ -1,4 +1,35 @@
-/*All the styles related to your pages while go here */*{
+
+/*All the styles related to your pages while go here */
+
+/*All the styles related to your pages while go here */
+
+body {
+  background-image: url("../images/home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: inherit;
+  background-size: cover;
+}
+footer{
+  background-color: black;
+  width:100%;
+  height: 100px;
+  bottom:0px;
+  float: left;
+  margin-top: 200px;
+}
+
+.iphone-six{
+  width:100%;
+  height: 500px;
+  background-color:white;
+  float:left;
+  margin-top: 400px;
+}
+
+
+*{
+
 	margin: 0px;
 	padding: 0px;
 }
@@ -81,9 +112,9 @@
     width: 40%;
   	border: 3px solid #73AD21;
   	padding: 10px;
-  	/*padding-left: 70px;
-*/
+  	
 }
+
 
 
 form{
@@ -107,8 +138,62 @@ h3 {
   padding-top:50px;
 }
 .button1 {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   width:130px;
   height:45px;
+
+.left-div{
+  background-color: #EEEEEE;
+  width:49%;
+  height: 490px;
+  float:left;
+  margin:5px;
+  background-image: url("../images/left.png");
+  background-repeat: no-repeat;
+}
+.right-div{
+  background-color: #EEEEEE;
+  width:49%;
+  height: 490px;
+  float:left;
+  margin:5px;
+  background-image: url("../images/right.png");
+  background-repeat: no-repeat;
+}
+
+.content-div{
+  background-color: #EEEEEE;
+  width:49%;
+  height: 490px;
+  float:left;
+  margin:5px;
+}
+.iphone-other{
+  width:100%;
+  height: 500px;
+  background-color:white;
+  float:left;
+  margin-top: 400px;
+  margin-top: 200px;
+}
+.desc{
+  font-family: arial;
+  margin-top: 70px;
+  font-size: 21px;
+  line-height: 3;
+}
+.heading-decs{
+  font-family: arial;
+  font-size: 21px;
+  line-height: 2;
+}
+
+.link{
+  text-decoration: none;
+  font-family: arial;
+  font-size: 21px;
+  color: #0070c9;
+  margin-left: 229px;
+
 }
