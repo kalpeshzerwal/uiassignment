@@ -17,7 +17,7 @@ footer{
   margin-top: 200px;
 }
 
-.intro{
+.iphone-six{
   width:100%;
   height: 500px;
   background-color:white;
@@ -104,12 +104,19 @@ footer{
 	height: auto;
 	float: left;
   background: white;
+  margin-bottom: 50px;
 }
 .product{
 	width:50%;
 	float: left;
-	margin-top: 50px;
+	padding-top: 50px;
 
+}
+.product2{
+  width:50%;
+  float: left;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .product-image{
@@ -156,17 +163,56 @@ footer{
 }
 
 .left-div{
-  background-color: grey;
+  background-color: #EEEEEE;
+  width:49%;
+  height: 490px;
+  float:left;
+  margin:5px;
+  background-image: url("../images/left.png");
+  background-repeat: no-repeat;
+}
+.right-div{
+  background-color: #EEEEEE;
+  width:49%;
+  height: 490px;
+  float:left;
+  margin:5px;
+  background-image: url("../images/right.png");
+  background-repeat: no-repeat;
+}
+
+.content-div{
+  background-color: #EEEEEE;
   width:49%;
   height: 490px;
   float:left;
   margin:5px;
 }
-.right-div{
-  background-color: grey;
-  width:49%;
-  height: 490px;
+.iphone-other{
+  width:100%;
+  height: 500px;
+  background-color:white;
   float:left;
-  margin:5px;
+  margin-top: 400px;
+  margin-top: 200px;
+}
+.desc{
+  font-family: arial;
+  margin-top: 70px;
+  font-size: 21px;
+  line-height: 3;
+}
+.heading-decs{
+  font-family: arial;
+  font-size: 21px;
+  line-height: 2;
+}
+
+.link{
+  text-decoration: none;
+  font-family: arial;
+  font-size: 21px;
+  color: #0070c9;
+  margin-left: 229px;
 
 }
