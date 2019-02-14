@@ -1,4 +1,5 @@
 
+
 /*All the styles related to your pages while go here */
 
 .about{
@@ -65,6 +66,7 @@
 
 /*/*All the styles related to your pages while go here */
 
+
 body {
   background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
@@ -90,6 +92,7 @@ footer{
 }
 
 *{
+
 	margin: 0px;
 	padding: 0px;
 }
@@ -97,7 +100,6 @@ footer{
 	width: 100%;
 	background: #000;
 	float: left;
-  clear:both;
 }
 
 .logo{
@@ -131,7 +133,7 @@ footer{
 
 .menu ul li:hover{
 	color:grey;
-	background: grey;
+
 }
 
 .menu a{
@@ -166,16 +168,116 @@ footer{
     width: 50px;
 }
 
+.borderclass{
+
+	  border-collapse: collapse;
+  }
+
+.parent{
+	width: 100%;
+	height: auto;
+	float: left;
+  background: white;
+  margin-bottom: 50px;
+}
+.product{
+	width:50%;
+	float: left;
+	padding-top: 50px;
+
+}
+.product2{
+  width:50%;
+  float: left;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-image{
+	float: left;
+}
+
+.product-image img{
+	width: 65%;
+  height: 250px;
+  margin-left: 100px;
+}
+.product-image img:hover{
+	opacity:0.5;
+}
+.product-content{
+	text-align: center;
+  margin-top: 50px;
+  float: left;
+  margin-left: 125px;
+}
+.block-heading{
+	margin-top: 50px;
+}
+.block-heading h1{
+	text-align: center;
+}
+
+.product-header{
+	float: left;
+  width: 100%;
+  background: white;
+
+}
 .footer-li{
   list-style: none;
   float: right;
   margin-top:30px;
   padding-left: 40px;
   padding-right: 40px;
+
 }
-.footer-links{
-  text-decoration: none;
+.table1{
+    background-image:white;
+	  border:1px solid black;
+	  margin: auto;
+    width: 40%;
+  	border: 3px solid white;
+  	padding: 30px;
+
+}
+.container2 label
+{
+  color :white;
+}
+
+
+form{
+	  width:60%;
+	  padding-left:10%;
+	  overflow:hidden;
+    margin-top:80px;
+
+	  margin-left:130px;
+}
+fieldset{
+	  float:right;
+	  border:none;
+	  margin-left:2em;
+}
+
+h3 {
+        text-shadow: 2px 2px 5px #fbfbfb;
+    color: black;
+        margin-bottom: 15px;
+}
+.container2{
+  padding-top:50px;
+  padding-right: 20px;
+  background: black;
+}
+.button1 {
+  background-color: transparent;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:130px;
+  border: 1px solid white;
   color:white;
+  height:45px;
 }
 
 .left-div{
@@ -191,4 +293,40 @@ footer{
   height: 490px;
   float:left;
   margin:5px;
+
+}
+.iphone-other{
+  width:100%;
+  height: 500px;
+  background-color:white;
+  float:left;
+  margin-top: 400px;
+  margin-top: 200px;
+}
+.desc{
+  font-family: arial;
+  margin-top: 70px;
+  font-size: 21px;
+  line-height: 3;
+}
+.heading-decs{
+  font-family: arial;
+  font-size: 21px;
+  line-height: 2;
+}
+
+.link{
+  text-decoration: none;
+  font-family: arial;
+  font-size: 21px;
+  color: #0070c9;
+  margin-left: 229px;
+}
+
+.transparent{
+  background: transparent;
+}
+.footer-links{
+  text-decoration: none;
+  color: white;
 }
