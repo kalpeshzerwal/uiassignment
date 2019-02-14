@@ -1,1 +1,70 @@
-/*All the styles related to your pages while go here */
+/*All the styles related to your pages while go here */*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	background: #000;
+	float: left;
+}
+
+.logo{
+	float:left;
+}
+
+.logo i{
+	margin-left: 25px;
+	color: white;
+	font-size: 75px;
+}
+
+.menu{
+	float: left;
+	margin-left: 70px;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-top:30px; 
+	padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.menu ul li:hover{
+	color:grey;
+	background: grey;
+}
+
+.menu a{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.searchBar{
+	margin-left: 250px;
+  float: left;
+}
+
+.searchBox{
+		background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 25px;
+    height: 25px;
+    margin-left: 50px;
+    border-radius: 50px 0px 50px 0px;
+    padding-left: 20px;
+}
+
+.button{
+		background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 25px;
+    height: 25px;
+    border-radius: 124px 0px 125px 0px;
+    width: 50px;
+}
