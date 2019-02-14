@@ -1,4 +1,4 @@
-/*All the styles related to your pages while go here */*{
+*{
 	margin: 0px;
 	padding: 0px;
 }
@@ -32,9 +32,9 @@
   cursor: pointer;
 }
 
-.menu ul li:hover{
+.menu ul li a:hover{
 	color:grey;
-	background: grey;
+	
 }
 
 .menu a{
@@ -67,4 +67,44 @@
     height: 25px;
     border-radius: 124px 0px 125px 0px;
     width: 50px;
+}
+.parent{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.product{
+	width:50%;
+	float: left;
+	margin-top: 50px;
+}
+
+.product-image{
+	float: left;
+}
+
+.product-image img{
+	width: 65%;
+  height: 250px;
+  margin-left: 100px;
+}
+.product-image img:hover{
+	opacity:0.5;
+}
+.product-content{
+	text-align: center;
+  margin-top: 50px;
+  float: left;
+  margin-left: 125px;
+}
+.block-heading{
+	margin-top: 50px;
+}
+.block-heading h1{
+	text-align: center;
+}
+
+.product-header{
+	float: left;
+  width: 100%;
 }
