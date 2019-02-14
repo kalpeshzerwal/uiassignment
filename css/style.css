@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*All the styles related to your pages while go here */
 
 .about{
@@ -21,8 +21,14 @@
   float:left;
   padding:1px;
   text-align: center;
+  background: white;
 
 
+}
+.white-backgrd
+{
+  background-color: white;
+    float: left;
 }
 .img{
   
@@ -49,9 +55,13 @@
   float: left;
   margin-top: 50px;
   margin-left: 104px;
+      margin-bottom: 50px;
 }
 
-=======
+.backgrd{
+ background-color: white;
+
+}
 
 /*/*All the styles related to your pages while go here */
 
@@ -98,6 +108,11 @@ footer{
 	margin-left: 25px;
 	color: white;
 	font-size: 75px;
+}
+
+.about-footer
+{
+  margin-top:0px;
 }
 
 .menu{
@@ -176,5 +191,4 @@ footer{
   height: 490px;
   float:left;
   margin:5px;
->>>>>>> a48d4a4561e27cb85d0bea83f717c6ed26c2dee6
 }
