@@ -55,7 +55,7 @@ footer{
 .menu ul li{
 	list-style: none;
 	float: left;
-	margin-top:30px; 
+	margin-top:30px;
 	padding-left: 40px;
   padding-right: 40px;
   cursor: pointer;
@@ -63,7 +63,7 @@ footer{
 
 .menu ul li a:hover{
 	color:grey;
-	
+
 }
 
 .menu a{
@@ -101,7 +101,7 @@ footer{
 
 
 .borderclass{
-	
+
 	  border-collapse: collapse;
   }
 
@@ -171,7 +171,7 @@ footer{
     width: 40%;
   	/*border: 3px solid white;*/
   	padding: 30px;
-  	
+
 }
 .container2 label
 {
@@ -184,7 +184,7 @@ form{
 	  padding-left:10%;
 	  overflow:hidden;
     margin-top:80px;
-   
+
 	  margin-left:130px;
 }
 fieldset{
@@ -273,6 +273,7 @@ h3 {
   height:40px;
   margin-left: 11px;
 }
+
 .transparent2{
   background: transparent;
   border:1.9px solid white;
@@ -291,3 +292,9 @@ h3 {
   margin-left:4%;
   margin-top:5px;
 }
+
+.footer-links{
+  text-decoration: none;
+  color: white;
+}
+
