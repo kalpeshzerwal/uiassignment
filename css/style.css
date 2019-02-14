@@ -1,7 +1,4 @@
 
-/*All the styles related to your pages while go here */
-
-/*All the styles related to your pages while go here */
 
 body {
   background-image: url("../images/home.jpg");
@@ -32,6 +29,7 @@ footer{
 
 	margin: 0px;
 	padding: 0px;
+  font-family: arial;
 }
 .header{
 	width: 100%;
@@ -63,9 +61,9 @@ footer{
   cursor: pointer;
 }
 
-.menu ul li:hover{
+.menu ul li a:hover{
 	color:grey;
-	background: grey;
+	
 }
 
 .menu a{
@@ -101,9 +99,70 @@ footer{
 }
 
 
+
 .borderclass{
 	
 	  border-collapse: collapse;
+  }
+
+.parent{
+	width: 100%;
+	height: auto;
+	float: left;
+  background: white;
+  margin-bottom: 50px;
+}
+.product{
+	width:50%;
+	float: left;
+	padding-top: 50px;
+
+}
+.product2{
+  width:50%;
+  float: left;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-image{
+	float: left;
+}
+
+.product-image img{
+	width: 65%;
+  height: 250px;
+  margin-left: 100px;
+}
+.product-image img:hover{
+	opacity:0.5;
+}
+.product-content{
+	text-align: center;
+  margin-top: 50px;
+  float: left;
+  margin-left: 125px;
+}
+.block-heading{
+	margin-top: 50px;
+}
+.block-heading h1{
+	text-align: center;
+}
+
+.product-header{
+	float: left;
+  width: 100%;
+  background: white;
+
+}
+.footer-li{
+  list-style: none;
+  float: right;
+  margin-top:30px;
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
 .table1{
 
@@ -142,6 +201,7 @@ h3 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   width:130px;
   height:45px;
+}
 
 .left-div{
   background-color: #EEEEEE;
@@ -195,5 +255,4 @@ h3 {
   font-size: 21px;
   color: #0070c9;
   margin-left: 229px;
-
 }
