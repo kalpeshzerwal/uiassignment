@@ -1,7 +1,7 @@
 
 
 /*All the styles related to your pages while go here */
-
+/*ANUJA ABOUT PAGE STARTS FROM HERE*/
 .about{
   text-align: center;
     margin-left: 550px;
@@ -66,6 +66,7 @@
 
 /*/*All the styles related to your pages while go here */
 
+/*ASISH HOME PAGE STARTS FROM HERE*/
 
 body {
   background-image: url("../images/home.jpg");
@@ -82,6 +83,75 @@ footer{
   float: left;
   margin-top: 200px;
 }
+.footer-li{
+  list-style: none;
+  float: right;
+  margin-top:30px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.footer-links{
+  text-decoration: none;
+  color: white;
+}
+.left-div{
+  background-image: url(../images/left.png);
+  background-repeat: no-repeat;
+  background-color: grey;
+  width:49%;
+  height: 490px;
+  float:left;
+  margin:5px;
+}
+.right-div{
+  background-image: url(../images/right.png);
+  background-repeat: no-repeat;
+  background-color: grey;
+  width:49%;
+  height: 490px;
+  float:left;
+  margin:5px;
+
+}
+.iphone-other{
+  width:100%;
+  height: 500px;
+  background-color:white;
+  float:left;
+  margin-top: 400px;
+  margin-top: 200px;
+}
+
+.desc{
+  font-family: arial;
+  margin-top: 70px;
+  font-size: 21px;
+  line-height: 3;
+}
+.heading-decs{
+  font-family: arial;
+  font-size: 21px;
+  line-height: 2;
+}
+
+.link{
+  text-decoration: none;
+  font-family: arial;
+  font-size: 21px;
+  color: #0070c9;
+  margin-left: 229px;
+}
+.iphone-six{
+  width:100%;
+  height:500px;
+  background-color:white;
+  float:left;
+  margin-top:400px;
+}
+
+
 
 .intro{
   width:100%;
@@ -90,6 +160,8 @@ footer{
   float:left;
   margin-top: 400px;
 }
+
+/*PIYUSH PRODUCT PAGE STARTS FROM HERE*/
 
 *{
 
@@ -159,7 +231,7 @@ footer{
 }
 
 .button{
-		background-color: transparent;
+	background-color: transparent;
     color: white;
     border: 2px solid white;
     margin-top: 25px;
@@ -168,10 +240,6 @@ footer{
     width: 50px;
 }
 
-.borderclass{
-
-	  border-collapse: collapse;
-  }
 
 .parent{
 	width: 100%;
@@ -224,14 +292,21 @@ footer{
   background: white;
 
 }
-.footer-li{
-  list-style: none;
-  float: right;
-  margin-top:30px;
-  padding-left: 40px;
-  padding-right: 40px;
-
+.content-div{
+  background-color:white;
+  width:49%;
+  height:490px;
+  float:left;
+  margin:5px;
 }
+
+/*KALPESH CONTACT PAGE STARTS FROM HERE*/
+
+.borderclass{
+
+	  border-collapse: collapse;
+  }
+
 .table1{
     background-image:white;
 	  border:1px solid black;
@@ -280,53 +355,6 @@ fieldset{
   height:45px;
 }
 
-.left-div{
-  background-image: url(../images/left.png);
-  background-repeat: no-repeat;
-  background-color: grey;
-  width:49%;
-  height: 490px;
-  float:left;
-  margin:5px;
-}
-.right-div{
-  background-image: url(../images/right.png);
-  background-repeat: no-repeat;
-  background-color: grey;
-  width:49%;
-  height: 490px;
-  float:left;
-  margin:5px;
-
-}
-.iphone-other{
-  width:100%;
-  height: 500px;
-  background-color:white;
-  float:left;
-  margin-top: 400px;
-  margin-top: 200px;
-}
-
-.desc{
-  font-family: arial;
-  margin-top: 70px;
-  font-size: 21px;
-  line-height: 3;
-}
-.heading-decs{
-  font-family: arial;
-  font-size: 21px;
-  line-height: 2;
-}
-
-.link{
-  text-decoration: none;
-  font-family: arial;
-  font-size: 21px;
-  color: #0070c9;
-  margin-left: 229px;
-}
 
 .transparent1{
   background: transparent;
@@ -355,22 +383,3 @@ fieldset{
   margin-top:5px;
 }
 
-.footer-links{
-  text-decoration: none;
-  color: white;
-}
-/*reolving comflict code*/
-.iphone-six{
-  width:100%;
-  height:500px;
-  background-color:white;
-  float:left;
-  margin-top:400px;
-}
-.content-div{
-  background-color:white;
-  width:49%;
-  height:490px;
-  float:left;
-  margin:5px;
-}
