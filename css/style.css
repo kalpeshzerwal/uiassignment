@@ -69,7 +69,7 @@
 /*ASISH HOME PAGE STARTS FROM HERE*/
 
 body {
-  background-image: url("../images/home.jpg");
+ background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: inherit;
@@ -85,16 +85,17 @@ footer{
 }
 .footer-li{
   list-style: none;
-  float: right;
+  float: left;
   margin-top:30px;
   padding-left: 40px;
-  padding-right: 40px;
+ /* padding-right: 40px;*/
 
 }
 
 .footer-links{
   text-decoration: none;
   color: white;
+
 }
 .left-div{
   background-image: url(../images/left.png);
@@ -410,84 +411,121 @@ footer{
 
 /*KALPESH CONTACT PAGE STARTS FROM HERE*/
 
-.borderclass{
+.contact_whitebackgrd{
+  
+  background-color:#1e272e;
+  
+}
+.contact_backgrd{
+   background-color:#1e272e;
+   
 
-	  border-collapse: collapse;
+}
+
+.fontawesome1 {
+  font-size: 18px;
+  float: right;
+  height: 30px;
+  margin-left: 29px;
+ /* border: 2px solid white;*/
+  width: 30px;
+  color:white;
+  text-align: center;
+ /* border-radius: 50%;*/
+  line-height: 31.5px;
+  margin-top: 5px;
+}
+
+.fontawesome1 i{
+    line-height: 5;
+    margin-left: 210px;
   }
 
-.table1{
-    background-image:white;
-	  border:1px solid black;
-	  margin: auto;
-    width: 40%;
-  	/*border: 3px solid white;*/
-  	padding: 30px;
+.fontawesome1:hover{
+ /* background: white;*/
+  color: gray;
+}
+
+
+.contact-body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+
+.contact-container1 {
+  padding: 16px;
+  background-color: white;
+  width:60%;
+  margin-right:20%;
+  margin-top:5%;
+  float:right;
+}
+
+
+.contact-name,.contact-email,.contact-mobile {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+
+.sendmsg {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.sendmsg:hover {
+  opacity: 1;
+}
+.contact-textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+}
+
+.contact-footer1{
+  
+  margin-right:58px;
+  font-size: 22px;
+}
+
+.footer-li1{
+  list-style: none;
+  float: right;
+  margin-top:0px;
+  padding-left: 40px;
+  padding-right: 40px;
 
 }
-.container2 label
+.footerPara
 {
-  color :white;
+  color: white;
+    float: left;
+    line-height: 4.9;
+    margin-left: 50px;
 }
 
-
-form{
-	  width:60%;
-	  padding-left:10%;
-	  overflow:hidden;
-    margin-top:80px;
-
-	  margin-left:130px;
+.fontawesome i
+{
+  line-height: 30px;
 }
-fieldset{
-	  float:right;
-	  border:none;
-	  margin-left:2em;
+.contact-footer1
+{
+  text-decoration: none;
+    color: white;
 }
-
-.h3 {
-        text-shadow: 2px 2px 5px #fbfbfb;
-    color: black;
-        margin-bottom: 15px;
-}
-.container2{
-  padding-top:50px;
-  padding-right: 20px;
-  background: black;
-}
-.button1 {
-  background-color: transparent;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width:130px;
-  border: 1px solid white;
-  color:white;
-  height:45px;
-}
-
-
-.transparent1{
-  background: transparent;
-  border:1.9px solid white;
- 
-  height:40px;
-  margin-left: 11px;
-}
-
-.transparent2{
-  background: transparent;
-  border:1.9px solid white;
-  margin-left:3.9%;
-  height:40px;
-}
-.transparent3{
-  background: transparent;
-  border:1.9px solid white;
-  margin-left:3.7%;
-  height:40px;
-}
-.transparent4{
-  background: transparent;
-  border:1.9px solid white;
-  margin-left:4%;
-  margin-top:5px;
-}
-
