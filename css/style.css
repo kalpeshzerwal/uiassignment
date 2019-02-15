@@ -220,6 +220,11 @@ h3 {
   margin:5px;
   background-image: url("../images/left.png");
   background-repeat: no-repeat;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
 }
 .right-div{
   background-color: #EEEEEE;
@@ -229,6 +234,11 @@ h3 {
   margin:5px;
   background-image: url("../images/right.png");
   background-repeat: no-repeat;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
 }
 
 .content-div{
@@ -251,7 +261,21 @@ h3 {
   margin-top: 70px;
   font-size: 21px;
   line-height: 3;
+  -webkit-animation: fadeinContent 2s;
+       -moz-animation: fadeinContent 2s;
+        -ms-animation: fadeinContent 2s;
+         -o-animation: fadeinContent 2s;
+            animation: fadeinContent 2s;
 }
+@keyframes fadein {
+    from { opacity: 0; margin-top: 30px }
+    to   { opacity: 1; margin-top: 5px; }
+}
+@keyframes fadeinContent {
+    from { opacity: 0; margin-top: 100px }
+    to   { opacity: 1; margin-top:70px; }
+}
+.he
 .heading-decs{
   font-family: arial;
   font-size: 21px;
@@ -264,6 +288,11 @@ h3 {
   font-size: 21px;
   color: #0070c9;
   margin-left: 229px;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
 }
 
 .transparent{
