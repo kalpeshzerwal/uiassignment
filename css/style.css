@@ -1,7 +1,75 @@
 
 
+/*All the styles related to your pages while go here */
+/*ANUJA ABOUT PAGE STARTS FROM HERE*/
+.about{
+  text-align: center;
+    margin-left: 550px;
+}
+.outside-border {
+  margin-top:250px;
+  border: 1px solid black;
+  width: 50%;
+  min-height: 250px;
+  margin-left: 83px;
+
+
+}
+.paragraph{
+
+  width:100%;
+  margin-top:21px;
+  float:left;
+  padding:1px;
+  text-align: center;
+  background: white;
+
+
+}
+.white-backgrd
+{
+  background-color: white;
+    float: left;
+}
+.img{
+
+
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  margin-left: 517px;
+
+
+}
+.tech-container{
+
+  width:250px;
+  margin-top: 10px;
+
+  float:left;
+  padding:1px;
+}
+.photos{
+
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 104px;
+  margin-bottom: 50px;
+}
+
+.backgrd{
+ background-color: white;
+
+}
+
+/*/*All the styles related to your pages while go here */
+
+/*ASHISH HOME PAGE STARTS FROM HERE*/
+
 body {
-  background-image: url("../images/home.jpg");
+ background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: inherit;
@@ -15,201 +83,17 @@ footer{
   float: left;
   margin-top: 200px;
 }
-
-.iphone-six{
-  width:100%;
-  height: 500px;
-  background-color:white;
-  float:left;
-  margin-top: 400px;
-}
-
-
-*{
-
-	margin: 0px;
-	padding: 0px;
-  font-family: arial;
-}
-.header{
-	width: 100%;
-	background: #000;
-	float: left;
-}
-
-.logo{
-	float:left;
-}
-
-.logo i{
-	margin-left: 25px;
-	color: white;
-	font-size: 75px;
-}
-
-.menu{
-	float: left;
-	margin-left: 70px;
-}
-
-.menu ul li{
-	list-style: none;
-	float: left;
-	margin-top:30px;
-	padding-left: 40px;
-  padding-right: 40px;
-  cursor: pointer;
-}
-
-.menu ul li a:hover{
-	color:grey;
-
-}
-
-.menu a{
-	color:white;
-	text-decoration: none;
-	font-size: 20px;
-}
-
-.searchBar{
-	margin-left: 250px;
-  float: left;
-}
-
-.searchBox{
-		background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    margin-top: 25px;
-    height: 25px;
-    margin-left: 50px;
-    border-radius: 50px 0px 50px 0px;
-    padding-left: 20px;
-}
-
-.button{
-		background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    margin-top: 25px;
-    height: 25px;
-    border-radius: 124px 0px 125px 0px;
-    width: 50px;
-}
-
-
-
-.borderclass{
-
-	  border-collapse: collapse;
-  }
-
-.parent{
-	width: 100%;
-	height: auto;
-	float: left;
-  background: white;
-  margin-bottom: 50px;
-}
-.product{
-	width:50%;
-	float: left;
-	padding-top: 50px;
-
-}
-.product2{
-  width:50%;
-  float: left;
-  padding-top: 50px;
-  margin-bottom: 50px;
-}
-
-.product-image{
-	float: left;
-}
-
-.product-image img{
-	width: 65%;
-  height: 250px;
-  margin-left: 100px;
-}
-.product-image img:hover{
-	opacity:0.5;
-}
-.product-content{
-	text-align: center;
-  margin-top: 50px;
-  float: left;
-  margin-left: 125px;
-}
-.block-heading{
-	margin-top: 50px;
-}
-.block-heading h1{
-	text-align: center;
-}
-
-.product-header{
-	float: left;
-  width: 100%;
-  background: white;
-
-}
 .footer-li{
   list-style: none;
-  float: right;
+  float: left;
   margin-top:30px;
   padding-left: 40px;
-  padding-right: 40px;
-
-}
-.table1{
-    background-image:white;
-	  border:1px solid black;
-	  margin: auto;
-    width: 40%;
-  	border: 3px solid white;
-  	padding: 30px;
-
-}
-.container2 label
-{
-  color :white;
 }
 
+.footer-links{
+  text-decoration: none;
+  color: white;
 
-form{
-	  width:60%;
-	  padding-left:10%;
-	  overflow:hidden;
-    margin-top:80px;
-
-	  margin-left:130px;
-}
-fieldset{
-	  float:right;
-	  border:none;
-	  margin-left:2em;
-}
-
-h3 {
-        text-shadow: 2px 2px 5px #fbfbfb;
-    color: white;
-        margin-bottom: 15px;
-}
-.container2{
-  padding-top:50px;
-  padding-right: 20px;
-  background: black;
-}
-.button1 {
-  background-color: transparent;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width:130px;
-  border: 1px solid white;
-  color:white;
-  height:45px;
 }
 
 .left-div{
@@ -240,14 +124,6 @@ h3 {
          -o-animation: fadein 2s;
             animation: fadein 2s;
 }
-
-.content-div{
-  background-color: #EEEEEE;
-  width:49%;
-  height: 490px;
-  float:left;
-  margin:5px;
-}
 .iphone-other{
   width:100%;
   height: 500px;
@@ -256,6 +132,7 @@ h3 {
   margin-top: 400px;
   margin-top: 200px;
 }
+
 .desc{
   font-family: arial;
   margin-top: 70px;
@@ -275,7 +152,6 @@ h3 {
     from { opacity: 0; margin-top: 100px }
     to   { opacity: 1; margin-top:70px; }
 }
-.he
 .heading-decs{
   font-family: arial;
   font-size: 21px;
@@ -294,11 +170,388 @@ h3 {
          -o-animation: fadein 2s;
             animation: fadein 2s;
 }
-
-.transparent{
-  background: transparent;
+.iphone-six{
+  width:100%;
+  height:500px;
+  background-color:white;
+  float:left;
+  margin-top:400px;
 }
-.footer-links{
+.intro{
+  width:100%;
+  height: 500px;
+  background-color:white;
+  float:left;
+  margin-top: 400px;
+}
+
+/*PIYUSH PRODUCT PAGE STARTS FROM HERE*/
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	background: #000;
+	float: left;
+  border-bottom: 1px solid white;
+}
+
+.logo{
+	float:left;
+}
+
+.logo i{
+	margin-left: 25px;
+	color: white;
+	font-size: 55px;
+}
+
+.about-footer
+{
+  margin-top:0px;
+}
+
+.menu{
+	float: left;
+	margin-left: 70px;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-top:17px;
+	padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.menu a{
+  color:white;
   text-decoration: none;
+  font-size: 20px;
+}
+
+.menu a:hover{
+	color:grey;
+
+}
+
+.searchBar{
+	float: left;
+}
+
+.searchBox{
+		background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 10px;
+    height: 25px;
+    margin-left: 50px;
+    border-radius: 150px 150px 150px 150px;
+    padding-left: 20px;
+
+}
+
+.button{
+	  background-color: transparent;
+    color: white;
+    margin-top: 15px;
+    height: 25px;
+    width: 50px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover
+{
+   opacity: 0.5;
+}
+
+.headerLinks
+{
+  width: 209px;
+    border: 2px solid white;
+    float: left;
+    height: 44px;
+    color: white;
+    border-radius: 27px 27px 27px 27px;
+    border-top: none;
+    margin-left: 50px;
+}
+.fontawesome
+{
+  font-size: 18px;
+  float: left;
+  height: 30px;
+  margin-left: 29px;
+  border: 2px solid white;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 31.5px;
+  margin-top: 5px;
+}
+
+.fontawesome:hover
+{
+  background: white;
+  color: black;
+}
+
+.parent{
+	width: 100%;
+	height: auto;
+	float: left;
+  background: white;
+  margin-bottom: 50px;
+}
+.product{
+	width:50%;
+	float: left;
+	padding-top: 50px;
+
+}
+
+.animationDot1{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top:120px;
+  left:284px;
+  display: none;
+  animation: dotOne 0.5s;
+  /*transition: 0.5s;*/
+  animation-fill-mode: forwards;
+}
+.animationDot2{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  display: none;
+  top:132px;
+  left: 304px;
+  animation: dotTwo 0.5s;
+  animation-fill-mode: forwards;
+}
+.animationDot3{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  display: none;
+  top:140px;
+  left:325px;
+  animation: dotThree 0.5s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes dotOne
+{
+  from {top:120px;}
+  to { top:114px;}
+}
+@keyframes dotTwo
+{
+  from {top:128px;}
+  to { top:114px;}
+}
+@keyframes dotThree
+{
+  from {top:137px;}
+  to { top:114px;}
+}
+
+.product-image:hover .animationDot1
+{
+  display: block;
+}
+.product-image:hover .animationDot2
+{
+  display: block;
+}
+.product-image:hover .animationDot3
+{
+  display: block;
+}
+
+.product2{
+  width:50%;
+  float: left;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.product-image{
+	float: left;
+  position: relative;
+}
+
+.product-image img{
+	width: 65%;
+  height: 250px;
+  margin-left: 100px;
+}
+.product-image img:hover{
+	opacity:0.3;
+}
+.product-content{
+	text-align: center;
+  margin-top: 50px;
+  float: left;
+  margin-left: 125px;
+}
+.block-heading{
+	margin-top: 50px;
+}
+.block-heading h1{
+	text-align: center;
+}
+
+.product-header{
+	float: left;
+  width: 100%;
+  background: white;
+
+}
+.content-div{
+  background-color:white;
+  width:49%;
+  height:490px;
+  float:left;
+  margin:5px;
+}
+
+/*KALPESH CONTACT PAGE STARTS FROM HERE*/
+
+.contact_whitebackgrd{
+
+  background-color:#1e272e;
+
+}
+.contact_backgrd{
+   background-color:#1e272e;
+
+
+}
+
+.fontawesome1 {
+  font-size: 18px;
+  float: right;
+  height: 30px;
+  margin-left: 29px;
+ /* border: 2px solid white;*/
+  width: 30px;
+  color:white;
+  text-align: center;
+ /* border-radius: 50%;*/
+  line-height: 31.5px;
+  margin-top: 5px;
+}
+
+.fontawesome1 i{
+    line-height: 5;
+    margin-left: 210px;
+  }
+
+.fontawesome1:hover{
+ /* background: white;*/
+  color: gray;
+}
+
+.contact-body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+
+.contact-container1 {
+  padding: 16px;
+  background-color: white;
+  width:60%;
+  margin-right:20%;
+  margin-top:5%;
+  float:right;
+}
+
+
+.contact-name,.contact-email,.contact-mobile {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.sendmsg {
+  background-color: black;
   color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.he
+.heading-decs{
+  font-family: arial;
+  font-size: 21px;
+  line-height: 2;
+}
+
+
+.sendmsg:hover {
+  opacity: 1;
+}
+.contact-textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+}
+
+.contact-footer1{
+  margin-right:58px;
+  font-size: 22px;
+}
+
+.footer-li1{
+  list-style: none;
+  float: right;
+  margin-top:0px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+.footerPara
+{
+  color: white;
+    float: left;
+    line-height: 4.9;
+    margin-left: 50px;
+}
+
+.fontawesome i
+{
+  line-height: 30px;
+}
+.contact-footer1
+{
+  text-decoration: none;
+    color: white;
 }
