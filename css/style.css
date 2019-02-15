@@ -9,8 +9,6 @@
   width: 50%;
   min-height: 250px;
   margin-left: 83px;
-
-
 }  
 .paragraph{
   
@@ -30,21 +28,16 @@
 }
 .img{
   
-  
   width: 150px;
   height: 150px;
   margin: 45px;
   margin-left:555px;
   float: left;
-
-
-   
 }
 .tech-container{
 
   width:250px;
   margin-top: 10px;
-  
   float:left;
   padding:1px;
 }
@@ -118,7 +111,6 @@
 .aboutus-block {
   position: absolute;
   float:left;
-  
   color: white;
   bottom: 20px;
   left: 20px;
@@ -150,7 +142,7 @@
 /*ASISH HOME PAGE STARTS FROM HERE*/
 
 body {
- background-image: url("../images/home.jpg");
+  background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: inherit;
@@ -166,17 +158,16 @@ footer{
 }
 .footer-li{
   list-style: none;
-  float: left;
+  float: right;
   margin-top:30px;
   padding-left: 40px;
- /* padding-right: 40px;*/
+  padding-right: 40px;
 
 }
 
 .footer-links{
   text-decoration: none;
   color: white;
-
 }
 .left-div{
   background-image: url(../images/left.png);
@@ -254,7 +245,6 @@ footer{
 	width: 100%;
 	background: #000;
 	float: left;
-  border-bottom: 1px solid white;
 }
 
 .logo{
@@ -264,7 +254,7 @@ footer{
 .logo i{
 	margin-left: 25px;
 	color: white;
-	font-size: 55px;
+	font-size: 75px;
 }
 
 .about-footer
@@ -280,85 +270,49 @@ footer{
 .menu ul li{
 	list-style: none;
 	float: left;
-	margin-top:17px;
+	margin-top:30px;
 	padding-left: 40px;
   padding-right: 40px;
   cursor: pointer;
 }
 
-.menu a{
-  color:white;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.menu a:hover{
+.menu ul li:hover{
 	color:grey;
 
 }
 
+.menu a{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
 .searchBar{
-	float: left;
+	margin-left: 160px;
+  float: left;
 }
 
 .searchBox{
 		background-color: transparent;
     color: white;
     border: 2px solid white;
-    margin-top: 10px;
+    margin-top: 25px;
     height: 25px;
     margin-left: 50px;
-    border-radius: 150px 150px 150px 150px;
+    border-radius: 50px 0px 50px 0px;
     padding-left: 20px;
-
 }
 
 .button{
-	  background-color: transparent;
+	background-color: transparent;
     color: white;
-    margin-top: 15px;
-    height: 25px;
-    width: 50px;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.button:hover
-{
-   opacity: 0.5;
-}
-
-.headerLinks
-{
-  width: 209px;
     border: 2px solid white;
-    float: left;
-    height: 44px;
-    color: white;
-    border-radius: 27px 27px 27px 27px;
-    border-top: none;
-    margin-left: 50px;
-}
-.fontawesome
-{
-  font-size: 18px;
-  float: left;
-  height: 30px;
-  margin-left: 29px;
-  border: 2px solid white;
-  width: 30px;
-  text-align: center;
-  border-radius: 50%;
-  line-height: 31.5px;
-  margin-top: 5px;
+    margin-top: 25px;
+    height: 25px;
+    border-radius: 124px 0px 125px 0px;
+    width: 50px;
 }
 
-.fontawesome:hover
-{
-  background: white;
-  color: black;
-}
 
 .parent{
 	width: 100%;
@@ -371,88 +325,17 @@ footer{
 	width:50%;
 	float: left;
 	padding-top: 50px;
-  
-}
-
-.animationDot1{
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: black;
-  position: absolute;
-  top:120px;
-  left:284px;
-  display: none;
-  animation: dotOne 0.5s;
-  /*transition: 0.5s;*/
-  animation-fill-mode: forwards;
-}
-.animationDot2{
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: black;
-  position: absolute;
-  display: none;
-  top:132px;
-  left: 304px;
-  animation: dotTwo 0.5s;
-  animation-fill-mode: forwards;
-}
-.animationDot3{
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: black;
-  position: absolute;
-  display: none;
-  top:140px;
-  left:325px; 
-  animation: dotThree 0.5s;
-  animation-fill-mode: forwards;
 
 }
-
-@keyframes dotOne
-{
-  from {top:120px;}
-  to { top:114px;}
-}
-@keyframes dotTwo
-{
-  from {top:128px;}
-  to { top:114px;}
-}
-@keyframes dotThree
-{
-  from {top:137px;}
-  to { top:114px;}
-}
-
-.product-image:hover .animationDot1
-{
-  display: block;
-}
-.product-image:hover .animationDot2
-{
-  display: block;
-}
-.product-image:hover .animationDot3
-{
-  display: block;
-}
-
 .product2{
   width:50%;
   float: left;
   padding-top: 50px;
   margin-bottom: 50px;
-   
 }
 
 .product-image{
 	float: left;
-  position: relative;
 }
 
 .product-image img{
@@ -461,7 +344,7 @@ footer{
   margin-left: 100px;
 }
 .product-image img:hover{
-	opacity:0.3;
+	opacity:0.5;
 }
 .product-content{
 	text-align: center;
@@ -492,121 +375,84 @@ footer{
 
 /*KALPESH CONTACT PAGE STARTS FROM HERE*/
 
-.contact_whitebackgrd{
-  
-  background-color:#1e272e;
-  
-}
-.contact_backgrd{
-   background-color:#1e272e;
-   
+.borderclass{
 
-}
-
-.fontawesome1 {
-  font-size: 18px;
-  float: right;
-  height: 30px;
-  margin-left: 29px;
- /* border: 2px solid white;*/
-  width: 30px;
-  color:white;
-  text-align: center;
- /* border-radius: 50%;*/
-  line-height: 31.5px;
-  margin-top: 5px;
-}
-
-.fontawesome1 i{
-    line-height: 5;
-    margin-left: 210px;
+	  border-collapse: collapse;
   }
 
-.fontawesome1:hover{
- /* background: white;*/
-  color: gray;
-}
-
-
-.contact-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
-}
-
-
-.contact-container1 {
-  padding: 16px;
-  background-color: white;
-  width:60%;
-  margin-right:20%;
-  margin-top:5%;
-  float:right;
-}
-
-
-.contact-name,.contact-email,.contact-mobile {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-
-
-
-.sendmsg {
-  background-color: black;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.sendmsg:hover {
-  opacity: 1;
-}
-.contact-textarea {
-      width: 100%;
-      padding: 15px;
-      margin: 5px 0 22px 0;
-      display: inline-block;
-      border: none;
-      background: #f1f1f1;
-}
-
-.contact-footer1{
-  
-  margin-right:58px;
-  font-size: 22px;
-}
-
-.footer-li1{
-  list-style: none;
-  float: right;
-  margin-top:0px;
-  padding-left: 40px;
-  padding-right: 40px;
+.table1{
+    background-image:white;
+	  border:1px solid black;
+	  margin: auto;
+    width: 40%;
+  	/*border: 3px solid white;*/
+  	padding: 30px;
 
 }
-.footerPara
+.container2 label
 {
-  color: white;
-    float: left;
-    line-height: 4.9;
-    margin-left: 50px;
+  color :white;
 }
 
-.fontawesome i
-{
-  line-height: 30px;
+
+form{
+	  width:60%;
+	  padding-left:10%;
+	  overflow:hidden;
+    margin-top:80px;
+
+	  margin-left:130px;
 }
-.contact-footer1
-{
-  text-decoration: none;
-    color: white;
+fieldset{
+	  float:right;
+	  border:none;
+	  margin-left:2em;
 }
+
+.h3 {
+        text-shadow: 2px 2px 5px #fbfbfb;
+    color: black;
+        margin-bottom: 15px;
+}
+.container2{
+  padding-top:50px;
+  padding-right: 20px;
+  background: black;
+}
+.button1 {
+  background-color: transparent;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:130px;
+  border: 1px solid white;
+  color:white;
+  height:45px;
+}
+
+
+.transparent1{
+  background: transparent;
+  border:1.9px solid white;
+ 
+  height:40px;
+  margin-left: 11px;
+}
+
+.transparent2{
+  background: transparent;
+  border:1.9px solid white;
+  margin-left:3.9%;
+  height:40px;
+}
+.transparent3{
+  background: transparent;
+  border:1.9px solid white;
+  margin-left:3.7%;
+  height:40px;
+}
+.transparent4{
+  background: transparent;
+  border:1.9px solid white;
+  margin-left:4%;
+  margin-top:5px;
+}
+
