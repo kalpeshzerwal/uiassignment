@@ -2,10 +2,7 @@
 
 /*All the styles related to your pages while go here */
 /*ANUJA ABOUT PAGE STARTS FROM HERE*/
-.about{
-  text-align: center;
-    margin-left: 550px;
-}
+
 .outside-border {
   margin-top:250px;
   border: 1px solid black;
@@ -18,10 +15,10 @@
 .paragraph{
   
   width:100%;
-  margin-top:21px;
+  margin-top:217px;
   float:left;
-  padding:1px;
-  text-align: center;
+  padding:5px;
+  text-align:center;
   background: white;
 
 
@@ -29,15 +26,17 @@
 .white-backgrd
 {
   background-color: white;
-    float: left;
+  float: left;
 }
 .img{
   
   
-  width: 200px;
-  height: 200px;
-  margin: 5px;
-  margin-left: 517px;
+  width: 150px;
+  height: 150px;
+  margin: 45px;
+  margin-left:555px;
+  float: left;
+
 
    
 }
@@ -51,19 +50,101 @@
 }
 .photos{
 
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   float: left;
   margin-top: 50px;
-  margin-left: 104px;
-      margin-bottom: 50px;
+  margin-left: 87px;
+  margin-bottom: 50px;
+  font-size: :80%;
+  text-align: center;
+  padding-bottom: 0.5em;
+
 }
 
 .backgrd{
  background-color: white;
+ float: left;
+ margin-bottom:150px;
+ height: 454px;
+
+}
+.about-text
+{
+  width: 50%;
+  height: 50%;
+  float: left;
+  margin-top: 50px;
+}
+.about-text1{
+  width:100%;
+  float:left;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background-color:white;
+
+}
+.about-text2{
+  width:100%;
+  float:left;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background-color: white;
+
+}
+.about-margin1{
+  margin-top: 40px;
+  line-height: 32px;
+  float: left;
+}
+.about-margin2{
+  margin-top: 4px;
+  line-height:32px; 
+  float: left;
+}
+.about-title{
+
+  text-align: center;
+  margin-top: 110px;
+  float: :left;
 
 }
 
+.about-compny-image{
+  float: left;
+  position: relative;
+
+}
+.aboutus-block {
+  position: absolute;
+  float:left;
+  
+  color: white;
+  bottom: 20px;
+  left: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 347%;
+  margin-bottom: 399px;
+  margin-left: 520px;
+  animation: mymove 5s;
+  animation-fill-mode:forwards;
+
+
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 135px;}
+}
+.overview
+{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:150%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.executive{
+
+}
 /*/*All the styles related to your pages while go here */
 
 /*ASISH HOME PAGE STARTS FROM HERE*/
