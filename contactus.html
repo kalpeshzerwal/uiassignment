@@ -1,87 +1,92 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<title>Contact Us</title>
-			<link rel="stylesheet" type="text/css" href="css/style.css">  
-		  <!-- <link rel="stylesheet" type="text/css" href="css/Mycss.css">  -->
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<head>
+	<title>contact_us form</title>
+		<title>Mobiles</title>
+		    <link rel="stylesheet" type="text/css" href="css/style.css">
+		    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	</head>
-	<body background="images/Apple-Wallpaper-1.jpg">
-		<header class="header">
-				<div class="logo">
-					<i class="fab fa-apple"></i>
-				</div>
-				<nav>
-					<div class="menu">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="products.html">Products</a></li>
-							<li><a href="contactus.html">Contact</a></li>
-						</ul>
-					</div>
-				</nav>
-				<div class ="searchBar">
-						<input type="text" name="" class="searchBox" placeholder="Search">
-						<button type="submit" class="button"> <i class="fas fa-search"></i> </button>
-				</div>
-
-		</header>
-		<div class="container2">
-			<form>
-				<table class="table1">
-					<tr>
-						<th class="borderclass" colspan="2"> <font size="5"><h3 class="h3">Get In Touch!</h3></font> </th>
-					</tr>
-					<tr>
-						<td>
-							<label>NAME</label>
-						</td>
-						<td class="borderclass">
-							<input type="text" size=30 class = "transparent1" placeholder="Enter your Name*" style=""/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<label>E-MAIL</label>
-						</td>
-						<td class="borderclass">
-							<input type="text" size=30 class = "transparent2" placeholder="Enter your Gmail*" />
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<label>MOBILE</label>
-						</td>
-						<td class="borderclass">
-							<input type="text" size=30 class = "transparent3" placeholder="Enter your Mobile No*"/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<label>COMMENTS</label>
-						</td>
-						<td class="borderclass">
-							<textarea rows="8" class = "transparent4" cols="35" placeholder=""></textarea> 
-						</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td> <center><button class="button1">Send Message</button></center></td>
-					</tr>
-				</table>
-				
-			</form>	
-		</div>
-		
-    <footer>
-
-        <ul>
-            <li class="footer-li"><a class="footer-links" href=""><strong>Shop and Learn</strong></a></li>
-            <li class="footer-li"><a class="footer-links" href=""><strong>Apple  Store</strong></a></li>
-            <li class="footer-li"><a class="footer-links" href=""><strong>For education</strong></a></li>
-
+<body class="contact-body">
+	<header class="header">
+      <div class="logo">
+        <i class="fab fa-apple"></i>
+      </div>
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contactus.html">Contact</a></li>
           </ul>
+        </div>
+      </nav>
+      <div class ="searchBar">
+          <input type="text" name="" class="searchBox" placeholder="Search">
+          <button type="submit" class="button"> <i class="fas fa-search"></i> </button>
+      </div>
+      <div class="headerLinks">
+       <div class="fontawesome">
+          <i class="fab fa-facebook-f"></i>
+         </div>
+         <div class="fontawesome">
+          <i class="fab fa-twitter"></i>
+         </div>
+     <div class="fontawesome">
+        <i class="fab fa-google"></i>       
+         </div>
+   </div>
+    </header>
+	<div class ="contact_whitebackgrd">   
+		<div class="contact_backgrd">
+			<form>
+				<div class="contact-container1">
+				    <h1>Contact-Us</h1>
+				   
+				    <hr>
+
+				    <label><b>Name</b></label>
+				    <input type="text" class="contact-name" placeholder="Enter Name" name="email">
+
+				    <label><b>Email</b></label>
+				    <input type="text" class="contact-email" placeholder="Enter Email" name="psw">
+
+				    <label><b>Phone-Number</b></label>
+				    <input type="text" class="contact-mobile" placeholder="Please Enter Phone-Number">
+				    <label><b>Comments</b></label>
+				   <textarea class="contact-textarea" 
+				          rows="5" cols="33">
+				    </textarea>
+				    <hr>
+				   
+
+				    <button type="submit" class="sendmsg">SendMessage</button>
+				</div>
+			</form>		
+		</div>
+	</div>
+	<footer>
+        <ul>
+            <li class="footer-li"><a class="footer-links" href=""><strong>Privacy Statement</strong></a></li>
+            <li class="footer-li"><a class="footer-links" href=""><strong>Disclaimer</strong></a></li>
+            <li class="footer-li"><a class="footer-links" href=""><strong>Feed</strong></a></li>
+             <p class="footerPara">Copyright 2016 BTW Group All Rights Reserved</p>
+        </ul>
+
+             <li class="footer-li1"><a class="contact-footer1" href="">Follow Us On</a></li>
+             
+        	 <div class="fontawesome1">
+          		<i class="fab fa-youtube"></i>
+         	</div>
+         	<div class="fontawesome1">
+          		<i class="fab fa-facebook-f"></i>
+         	</div>
+        	 <div class="fontawesome1">
+         		 <i class="fab fa-twitter"></i>
+         	</div>
+     		<div class="fontawesome1">
+     		   <i class="fab fa-google"></i>       
+        	 </div>
+       
     </footer>
-	</body>
+</body>
 </html>
