@@ -273,7 +273,6 @@ footer{
   width: 100%;
   background: #2d2d2d;
   float: left;
-  position:fixed;
 }
 
 .logo{
@@ -316,24 +315,24 @@ footer{
 
 .menu a:hover{
   color:grey;
-
 }
 
 .menu a{
 	color:white;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .searchBar{
   float: right;
-  margin-top: 23px;
-  margin-right: 69px;
+  margin-top: 19px;
+  margin-right: 39px;
 }
 
 .searchBox{
-    /*background-color: transparent;*/
-    color: white;
+  color: #2d2d2d;
+  border-radius: 25px;
+  height: 24px;
 }
 
 .button{
