@@ -86,8 +86,8 @@ footer{
 .footer-li{
   list-style: none;
   float: left;
-  margin-top:30px;
-  padding-left: 40px;
+ /* margin-top:30px;*/
+  padding-left: 70px;
 }
 
 .footer-links{
@@ -414,7 +414,7 @@ footer{
 .block-heading{
 	margin-top: 50px;
 }
-.block-heading h1{
+.block-heading h1{t
 	text-align: center;
 }
 
@@ -441,39 +441,43 @@ footer{
 }
 .contact_backgrd{
    background-color:#1e272e;
-
-
 }
 
-.fontawesome1 {
-  font-size: 18px;
-  float: right;
-  height: 30px;
-  margin-left: 29px;
+.fontawesome1 li {
+  float:right;
+  display: inline-block
+ /* font-size: 18px;*/
+  /*float: right;*/
+  /*height: 30px;*/
+/*  margin-left: 29px;*/
  /* border: 2px solid white;*/
-  width: 30px;
-  color:white;
-  text-align: center;
+ /* width: 30px;*/
+  /*color:white;*/
+ /* text-align: center;*/
  /* border-radius: 50%;*/
-  line-height: 31.5px;
-  margin-top: 5px;
+  /*line-height: 31.5px;*/
+  /*margin-top: 5px;*/
 }
 
-.fontawesome1 i{
-    line-height: 5;
-    margin-left: 210px;
-  }
+.fontawesome1 i {
+  float: left;
+  font-size: 18px;
+  padding:auto;
+  width: 20px;
+  height: 20px;
+  margin: 0 15px 15px 0;
+}
 
-.fontawesome1:hover{
+.footer-li a:hover {
  /* background: white;*/
   color: gray;
+  border:1px dotted white;
 }
 
 .contact-body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
 }
-
 
 .contact-container1 {
   padding: 16px;
@@ -483,7 +487,6 @@ footer{
   margin-top:5%;
   float:right;
 }
-
 
 .contact-name,.contact-email,.contact-mobile {
   width: 100%;
@@ -505,17 +508,10 @@ footer{
   opacity: 0.9;
 }
 
-.he
-.heading-decs{
-  font-family: arial;
-  font-size: 21px;
-  line-height: 2;
-}
-
-
 .sendmsg:hover {
-  opacity: 1;
+  opacity: 2;
 }
+
 .contact-textarea {
       width: 100%;
       padding: 15px;
@@ -525,12 +521,12 @@ footer{
       background: #f1f1f1;
 }
 
-.contact-footer1{
+.contact-footer1 {
   margin-right:58px;
   font-size: 22px;
 }
 
-.footer-li1{
+.footer-li1 {
   list-style: none;
   float: right;
   margin-top:0px;
@@ -538,20 +534,27 @@ footer{
   padding-right: 40px;
 
 }
-.footerPara
-{
+.footerPara a{
   color: white;
-    float: left;
-    line-height: 4.9;
-    margin-left: 50px;
+  float: left; 
 }
-
-.fontawesome i
-{
+.fontawesome i{
   line-height: 30px;
 }
-.contact-footer1
-{
+.contact-footer1 {
   text-decoration: none;
     color: white;
+}
+.footersection {
+  float: left;
+  margin-left: 70px;
+ /* height: 45px;*/
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width:100%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
