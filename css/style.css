@@ -564,10 +564,13 @@ footer{
   clear: both;
   display: table;
 }
+
+
+/*sagar css for whats new*/
+
 .banner-image {
   background-color: #fff;
   height: 400px;
-  margin-top: 20px;
   float: left;
   width: 100%;
 }
@@ -585,4 +588,3 @@ footer{
   margin-left: 20PX;
   font-family: sans-serif;
 }
-
