@@ -51,7 +51,7 @@
   float: left;
   margin-top: 50px;
   margin-left: 104px;
-      margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .backgrd{
@@ -61,9 +61,9 @@
 
 /*/*All the styles related to your pages while go here */
 
-/*ASISH HOME PAGE STARTS FROM HERE*/
+/*ASHISH HOME PAGE STARTS FROM HERE*/
 
-body{
+body {
   background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -80,35 +80,45 @@ footer{
 }
 .footer-li{
   list-style: none;
-  float: right;
-  margin-top:30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  float: left;
+ /* margin-top:30px;*/
+  padding-left: 70px;
+
 }
 
 .footer-links{
   text-decoration: none;
   color: white;
+
 }
 
 .left-div{
-  background-image: url(../images/left.png);
-  background-repeat: no-repeat;
-  background-color: grey;
+  background-color: #EEEEEE;
   width:49%;
   height: 490px;
   float:left;
   margin:5px;
+  background-image: url("../images/left.png");
+  background-repeat: no-repeat;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
 }
 .right-div{
-  background-image: url(../images/right.png);
-  background-repeat: no-repeat;
-  background-color: grey;
+  background-color: #EEEEEE;
   width:49%;
   height: 490px;
   float:left;
   margin:5px;
-
+  background-image: url("../images/right.png");
+  background-repeat: no-repeat;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
 }
 .iphone-other{
   width:100%;
@@ -124,6 +134,19 @@ footer{
   margin-top: 70px;
   font-size: 21px;
   line-height: 3;
+  -webkit-animation: fadeinContent 2s;
+       -moz-animation: fadeinContent 2s;
+        -ms-animation: fadeinContent 2s;
+         -o-animation: fadeinContent 2s;
+            animation: fadeinContent 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; margin-top: 30px }
+    to   { opacity: 1; margin-top: 5px; }
+}
+@keyframes fadeinContent {
+    from { opacity: 0; margin-top: 100px }
+    to   { opacity: 1; margin-top:70px; }
 }
 .heading-decs{
   font-family: arial;
@@ -137,6 +160,11 @@ footer{
   font-size: 21px;
   color: #0070c9;
   margin-left: 229px;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
 }
 
 .iphone-six{
@@ -146,7 +174,6 @@ footer{
   float:left;
   margin-top:400px;
 }
-
 .intro{
   width:100%;
   height: 500px;
@@ -159,24 +186,24 @@ footer{
 
 *{
 
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 .header{
-	width: 100%;
-	background: #000;
-	float: left;
+  width: 100%;
+  background: #000;
+  float: left;
   border-bottom: 1px solid white;
 }
 
 .logo{
-	float:left;
+  float:left;
 }
 
 .logo i{
-	margin-left: 25px;
-	color: white;
-	font-size: 55px;
+  margin-left: 25px;
+  color: white;
+  font-size: 55px;
 }
 
 .about-footer
@@ -185,24 +212,17 @@ footer{
 }
 
 .menu{
-	float: left;
-	margin-left: 70px;
-}
-
-.logo img
-{
-  height: 50px;
-  margin-left: 20px;
+  float: left;
+  margin-left: 70px;
 }
 
 .menu ul li{
-	list-style: none;
-	float: left;
-	padding-left: 40px;
+  list-style: none;
+  float: left;
+  margin-top:17px;
+  padding-left: 40px;
   padding-right: 40px;
   cursor: pointer;
-  padding-bottom: 17px;
-    padding-top: 15px;
 }
 
 .menu a{
@@ -211,17 +231,17 @@ footer{
   font-size: 20px;
 }
 
-
 .menu a:hover{
-	color:grey;
+  color:grey;
+
 }
 
 .searchBar{
-	float: left;
+  float: left;
 }
 
 .searchBox{
-		background-color: transparent;
+    background-color: transparent;
     color: white;
     border: 2px solid white;
     margin-top: 10px;
@@ -233,7 +253,7 @@ footer{
 }
 
 .button{
-	  background-color: transparent;
+    background-color: transparent;
     color: white;
     margin-top: 15px;
     height: 25px;
@@ -271,13 +291,8 @@ footer{
   border-radius: 50%;
   line-height: 31.5px;
   margin-top: 5px;
-  cursor: pointer;
 }
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 .fontawesome:hover
 {
   background: white;
@@ -285,9 +300,9 @@ footer{
 }
 
 .parent{
-	width: 100%;
-	height: auto;
-	float: left;
+  width: 100%;
+  height: auto;
+  float: left;
   background: white;
   margin-bottom: 50px;
 }
@@ -295,7 +310,6 @@ footer{
 	width:50%;
 	float: left;
 	padding-top: 50px;
-
 }
 
 .animationDot1{
@@ -365,44 +379,43 @@ footer{
 {
   display: block;
 }
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-.margin-bottom{
+.product2{
+  width:50%;
+  float: left;
+  padding-top: 50px;
   margin-bottom: 50px;
+
 }
 
 .product-image{
-	float: left;
+  float: left;
   position: relative;
 }
 
 .product-image img{
-	width: 65%;
+  width: 65%;
   height: 250px;
   margin-left: 100px;
 }
 .product-image img:hover{
-	opacity:0.3;
+  opacity:0.3;
 }
 .product-content{
-	text-align: center;
+  text-align: center;
   margin-top: 50px;
   float: left;
   margin-left: 125px;
 }
 .block-heading{
-	margin-top: 50px;
+  margin-top: 50px;
 }
-.block-heading h1{
-	text-align: center;
+.block-heading h1{t
+  text-align: center;
 }
 
 .product-header{
-	float: left;
+  float: left;
   width: 100%;
   background: white;
 
@@ -417,84 +430,128 @@ footer{
 
 /*KALPESH CONTACT PAGE STARTS FROM HERE*/
 
-.borderclass{
+.contact_whitebackgrd{
 
-	  border-collapse: collapse;
-  }
-
-.table1{
-    background-image:white;
-	  border:1px solid black;
-	  margin: auto;
-    width: 40%;
-  	/*border: 3px solid white;*/
-  	padding: 30px;
+  background-color:#1e272e;
 
 }
-.container2 label
-{
-  color :white;
+.contact_backgrd{
+   background-color:#1e272e;
+}
+
+.fontawesome1 li {
+  float:right;
+  display: inline-block
+ /* font-size: 18px;*/
+  /*float: right;*/
+  /*height: 30px;*/
+/*  margin-left: 29px;*/
+ /* border: 2px solid white;*/
+ /* width: 30px;*/
+  /*color:white;*/
+ /* text-align: center;*/
+ /* border-radius: 50%;*/
+  /*line-height: 31.5px;*/
+  /*margin-top: 5px;*/
+}
+
+.fontawesome1 i {
+  float: left;
+  font-size: 18px;
+  padding:auto;
+  width: 20px;
+  height: 20px;
+  margin: 0 15px 15px 0;
+}
+
+.footer-li a:hover {
+ /* background: white;*/
+  color: gray;
+  border:1px dotted white;
+}
+
+.contact-body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.contact-container1 {
+  padding: 16px;
+  background-color: white;
+  width:60%;
+  margin-right:20%;
+  margin-top:5%;
+  float:right;
+}
+
+.contact-name,.contact-email,.contact-mobile {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.sendmsg {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.sendmsg:hover {
+  opacity: 2;
 }
 
 
-form{
-	  width:60%;
-	  padding-left:10%;
-	  overflow:hidden;
-    margin-top:80px;
-
-	  margin-left:130px;
-}
-fieldset{
-	  float:right;
-	  border:none;
-	  margin-left:2em;
+.contact-textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
 }
 
-.h3 {
-        text-shadow: 2px 2px 5px #fbfbfb;
-    color: black;
-        margin-bottom: 15px;
-}
-.container2{
-  padding-top:50px;
-  padding-right: 20px;
-  background: black;
-}
-.button1 {
-  background-color: transparent;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width:130px;
-  border: 1px solid white;
-  color:white;
-  height:45px;
+.contact-footer1 {
+  margin-right:58px;
+  font-size: 22px;
 }
 
+.footer-li1 {
+  list-style: none;
+  float: right;
+  margin-top:0px;
+  padding-left: 40px;
+  padding-right: 40px;
 
-.transparent1{
-  background: transparent;
-  border:1.9px solid white;
-
-  height:40px;
-  margin-left: 11px;
 }
-
-.transparent2{
-  background: transparent;
-  border:1.9px solid white;
-  margin-left:3.9%;
-  height:40px;
+.footerPara a{
+  color: white;
+  float: left;
 }
-.transparent3{
-  background: transparent;
-  border:1.9px solid white;
-  margin-left:3.7%;
-  height:40px;
+.fontawesome i{
+  line-height: 30px;
 }
-.transparent4{
-  background: transparent;
-  border:1.9px solid white;
-  margin-left:4%;
-  margin-top:5px;
+.contact-footer1 {
+  text-decoration: none;
+    color: white;
 }
-
+.footersection {
+  float: left;
+  margin-left: 70px;
+ /* height: 45px;*/
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width:100%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
