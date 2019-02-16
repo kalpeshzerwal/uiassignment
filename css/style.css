@@ -9,24 +9,21 @@
   width: 50%;
   min-height: 250px;
   margin-left: 83px;
-}  
+}
 .paragraph {
-  
   width:100%;
   margin-top:217px;
   float:left;
   padding:5px;
   text-align:center;
   background: white;
-
-
 }
 .white-backgrd {
   background-color: white;
   float: left;
 }
 .img {
-  
+
   width: 150px;
   height: 150px;
   margin: 45px;
@@ -88,7 +85,7 @@
 }
 .about-margin2 {
   margin-top: 4px;
-  line-height:32px; 
+  line-height:32px;
   float: left;
 }
 .about-title {
@@ -142,7 +139,7 @@
   display: table;
 }
 .about-label{
-  
+
   padding-left: 39px;
 
 }
@@ -168,7 +165,6 @@ footer{
 .footer-li{
   list-style: none;
   float: left;
- /* margin-top:30px;*/
   padding-left: 70px;
 }
 
@@ -239,7 +235,7 @@ footer{
   line-height: 2;
 }
 
-.link{
+.link {
   text-decoration: none;
   font-family: arial;
   font-size: 21px;
@@ -251,6 +247,7 @@ footer{
          -o-animation: fadein 2s;
             animation: fadein 2s;
 }
+
 .iphone-six{
   width:100%;
   height:500px;
@@ -265,20 +262,21 @@ footer{
   float:left;
   margin-top: 400px;
 }
-
+.icon-space{
+    padding-right: 3px;
+    font-size: 13px;
+}
 /*PIYUSH PRODUCT PAGE STARTS FROM HERE*/
 
 *{
-
   margin: 0px;
   padding: 0px;
 }
 .header{
-
   width: 100%;
-  background: #000;
+  background: #2d2d2d;
   float: left;
-  border-bottom: 1px solid white;
+  position:fixed;
 }
 
 .logo{
@@ -287,9 +285,9 @@ footer{
 
 .logo i{
 
-  margin-left: 25px;
+  margin: 20px 0px 0px 57px;
   color: white;
-  font-size: 55px;
+  font-size: 30px;
 
 }
 
@@ -300,18 +298,17 @@ footer{
 
 .menu{
   float: left;
-  margin-left: 70px;
+  margin-left: 37px;
 }
 
 .menu ul li{
-
   list-style: none;
   float: left;
-  margin-top:17px;
-  padding-left: 40px;
-  padding-top: 15px;
-  padding-bottom: 17px;
-  padding-right: 40px;
+  margin-top: 17px;
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 14px;
+  padding-right: 60px;
   cursor: pointer;
 }
 .menu a{
@@ -332,19 +329,14 @@ footer{
 }
 
 .searchBar{
-
-  float: left;
+  float: right;
+  margin-top: 23px;
+  margin-right: 69px;
 }
 
 .searchBox{
-    background-color: transparent;
+    /*background-color: transparent;*/
     color: white;
-    border: 2px solid white;
-    margin-top: 25px;
-    height: 25px;
-    margin-left: 50px;
-    border-radius: 50px 0px 50px 0px;
-    padding-left: 20px;
 }
 
 .button{
@@ -352,11 +344,10 @@ footer{
     background-color: transparent;
     color: white;
     border: 2px solid white;
-    margin-top: 15px;
     height: 25px;
     width: 50px;
-    border:none;
-    font-size:18px;
+    border: none;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -369,10 +360,9 @@ footer{
   margin-bottom: 50px;
 }
 .product{
-  width:50%;
-  float: left;
-  padding-top: 50px;
-
+	width:50%;
+	float: left;
+	padding-top: 50px;
 }
 
 .animationDot1{
@@ -385,7 +375,6 @@ footer{
   left:284px;
   display: none;
   animation: dotOne 0.5s;
-  /*transition: 0.5s;*/
   animation-fill-mode: forwards;
 }
 .animationDot2{
@@ -411,7 +400,6 @@ footer{
   left:325px;
   animation: dotThree 0.5s;
   animation-fill-mode: forwards;
-
 }
 .product2{
   width:50%;
@@ -421,10 +409,8 @@ footer{
 }
 
 .product-image{
-
   float: left;
   position: relative;
-
 }
 
 .product-image img{
@@ -433,7 +419,6 @@ footer{
   margin-left: 100px;
 }
 .product-image img:hover{
-
   opacity:0.3;
 }
 .product-content{
@@ -543,6 +528,7 @@ footer{
   opacity: 2;
 }
 
+
 .contact-textarea {
       width: 100%;
       padding: 15px;
@@ -567,7 +553,7 @@ footer{
 }
 .footerPara a{
   color: white;
-  float: left; 
+  float: left;
 }
 .fontawesome i{
   line-height: 30px;
