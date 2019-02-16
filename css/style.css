@@ -167,10 +167,9 @@ footer{
 }
 .footer-li{
   list-style: none;
-  float: right;
-  margin-top:30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  float: left;
+ /* margin-top:30px;*/
+  padding-left: 70px;
 }
 
 .footer-links{
@@ -577,14 +576,7 @@ footer{
   text-decoration: none;
     color: white;
 }
-.footersection {
-  float: left;
-  margin-left: 70px;
- /* height: 45px;*/
-  padding-bottom: 50px;
-  padding-top: 50px;
-  width:100%;
-}
+
 .clearfix::after {
   content: "";
   clear: both;
