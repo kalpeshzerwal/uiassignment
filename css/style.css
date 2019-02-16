@@ -9,9 +9,9 @@
   width: 50%;
   min-height: 250px;
   margin-left: 83px;
-}  
+}
 .paragraph {
-  
+
   width:100%;
   margin-top:217px;
   float:left;
@@ -26,7 +26,7 @@
   float: left;
 }
 .img {
-  
+
   width: 150px;
   height: 150px;
   margin: 45px;
@@ -88,7 +88,7 @@
 }
 .about-margin2 {
   margin-top: 4px;
-  line-height:32px; 
+  line-height:32px;
   float: left;
 }
 .about-title {
@@ -142,9 +142,7 @@
   display: table;
 }
 .about-label{
-  
   padding-left: 39px;
-
 }
 /*/*All the styles related to your pages while go here */
 
@@ -177,7 +175,6 @@ footer{
   text-decoration: none;
   color: white;
 }
-
 .left-div{
   background-color: #EEEEEE;
   width:49%;
@@ -568,7 +565,7 @@ footer{
 }
 .footerPara a{
   color: white;
-  float: left; 
+  float: left;
 }
 .fontawesome i{
   line-height: 30px;
@@ -590,3 +587,8 @@ footer{
   clear: both;
   display: table;
 }
+.banner-image {
+  background-color: #fff
+}
+
+
