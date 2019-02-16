@@ -566,8 +566,9 @@ footer{
 }
 
 
-/*sagar css for whats new*/
-
+/*SAGAR WHATS NEW PAGE STARTS FROM HERE
+Banner image and slide show
+*/
 .banner-image {
   background-color: #fff;
   height: 400px;
@@ -587,4 +588,73 @@ footer{
   float: left;
   margin-left: 20PX;
   font-family: sans-serif;
+}
+
+.slide-show-images {
+  background-color: #D3D3D3;
+  margin-top: 200px;
+  float: left;
+  width: 100%;
+}
+
+.slideshow {
+  width: 625px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slideshow-container {
+  width: 2500px;
+  transition: 1s ease;
+}
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+.image-slide-show {
+  width: 625px;
+  height: auto;
+  display: inline-block;
+}
+.slide {
+  animation: slide 24s ease infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  12.5% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  37.5% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+
+  62.5% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-75%);
+  }
+
+  87.5% {
+    transform: translateX(-75%);
+  }
+
+  99% {
+    transform: translateX(-75%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
