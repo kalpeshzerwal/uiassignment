@@ -12,19 +12,14 @@
   width: 50%;
   min-height: 250px;
   margin-left: 83px;
-
-
-}  
+}
 .paragraph{
-  
   width:100%;
   margin-top:21px;
   float:left;
   padding:1px;
   text-align: center;
   background: white;
-
-
 }
 .white-backgrd
 {
@@ -32,20 +27,20 @@
     float: left;
 }
 .img{
-  
-  
+
+
   width: 200px;
   height: 200px;
   margin: 5px;
   margin-left: 517px;
 
-   
+
 }
 .tech-container{
 
   width:250px;
   margin-top: 10px;
-  
+
   float:left;
   padding:1px;
 }
@@ -68,7 +63,7 @@
 
 /*ASISH HOME PAGE STARTS FROM HERE*/
 
-body {
+body{
   background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -89,13 +84,13 @@ footer{
   margin-top:30px;
   padding-left: 40px;
   padding-right: 40px;
-
 }
 
 .footer-links{
   text-decoration: none;
   color: white;
 }
+
 .left-div{
   background-image: url(../images/left.png);
   background-repeat: no-repeat;
@@ -136,13 +131,14 @@ footer{
   line-height: 2;
 }
 
-.link{
+.link {
   text-decoration: none;
   font-family: arial;
   font-size: 21px;
   color: #0070c9;
   margin-left: 229px;
 }
+
 .iphone-six{
   width:100%;
   height:500px;
@@ -150,8 +146,6 @@ footer{
   float:left;
   margin-top:400px;
 }
-
-
 
 .intro{
   width:100%;
@@ -301,7 +295,7 @@ footer{
 	width:50%;
 	float: left;
 	padding-top: 50px;
-  
+
 }
 
 .animationDot1{
@@ -337,7 +331,7 @@ footer{
   position: absolute;
   display: none;
   top:140px;
-  left:325px; 
+  left:325px;
   animation: dotThree 0.5s;
   animation-fill-mode: forwards;
 
@@ -480,7 +474,7 @@ fieldset{
 .transparent1{
   background: transparent;
   border:1.9px solid white;
- 
+
   height:40px;
   margin-left: 11px;
 }
