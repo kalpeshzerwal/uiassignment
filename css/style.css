@@ -3,30 +3,19 @@
 /*All the styles related to your pages while go here */
 /*ANUJA ABOUT PAGE STARTS FROM HERE*/
 
-.outside-border {
-  margin-top:250px;
-  border: 1px solid black;
-  width: 50%;
-  min-height: 250px;
-  margin-left: 83px;
-}  
+
 .paragraph {
-  
   width:100%;
   margin-top:217px;
   float:left;
   padding:5px;
-  text-align:center;
   background: white;
-
-
 }
 .white-backgrd {
   background-color: white;
   float: left;
 }
 .img {
-  
   width: 150px;
   height: 150px;
   margin: 45px;
@@ -34,14 +23,12 @@
   float: left;
 }
 .tech-container {
-
   width:250px;
   margin-top: 10px;
   float:left;
   padding:1px;
 }
 .photos img{
-
   width:19%;
   height: 19%;
   float: left;
@@ -64,20 +51,20 @@
   height: 50%;
   float: left;
   margin-top: 50px;
+
 }
 .about-text1 {
   width:100%;
   float:left;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin:10%,0%,0%,10%;
   background-color:white;
+  
 
 }
 .about-text2 {
   width:100%;
   float:left;
   margin-top: 120px;
-  margin-bottom: 120px;
   background-color: white;
 
 }
@@ -97,9 +84,11 @@
   float: :left;
 }
 
-.about-compny-image {
+.about-compny-image img{
   float: left;
   position: relative;
+  width: 100%;
+  margin-bottom: 150px;
 
 }
 .aboutus-block {
@@ -111,13 +100,13 @@
   font-family:Arial, Helvetica, sans-serif;
   font-size: 347%;
   margin-bottom: 399px;
-  margin-left: 520px;
+  margin-left:498px;
   animation: mymove 5s;
   animation-fill-mode:forwards;
 }
 @keyframes mymove {
   from {top: 0px;}
-  to {top: 135px;}
+  to {top: 150px;}
 }
 .overview {
   font-family: Arial, Helvetica, sans-serif;
@@ -146,6 +135,21 @@
   padding-left: 39px;
 
 }
+@media only screen and (max-width: 1024px) {
+ 
+  .about-text1{
+    width: 80%;
+    margin: 10% 0% 0% 10%;
+
+  }
+ .aboutus-block {
+    margin-left: 498px;
+
+
+ }
+  
+}
+
 /*/*All the styles related to your pages while go here */
 
 /*ASHISH HOME PAGE STARTS FROM HERE*/
