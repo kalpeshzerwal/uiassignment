@@ -4,6 +4,14 @@
 /*ANUJA ABOUT PAGE STARTS FROM HERE*/
 
 
+.outside-border {
+  margin-top:250px;
+  border: 1px solid black;
+  width: 50%;
+  min-height: 250px;
+  margin-left: 83px;
+}
+
 .paragraph {
   width:100%;
   margin-top:217px;
@@ -16,6 +24,7 @@
   float: left;
 }
 .img {
+
   width: 150px;
   height: 150px;
   margin: 45px;
@@ -75,7 +84,7 @@
 }
 .about-margin2 {
   margin-top: 4px;
-  line-height:32px; 
+  line-height:32px;
   float: left;
 }
 .about-title {
@@ -131,9 +140,7 @@
   display: table;
 }
 .about-label{
-  
   padding-left: 39px;
-
 }
 @media only screen and (max-width: 1024px) {
  
@@ -147,8 +154,15 @@
 
 
  }
+ .about-text2{
+  width: 80%;
+    margin: 10% 0% 0% 10%;
+
+ }
   
 }
+
+
 
 /*/*All the styles related to your pages while go here */
 
@@ -171,17 +185,14 @@ footer{
 }
 .footer-li{
   list-style: none;
-  float: right;
-  margin-top:30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  float: left;
+  padding-left: 70px;
 }
 
 .footer-links{
   text-decoration: none;
   color: white;
 }
-
 .left-div{
   background-color: #EEEEEE;
   width:49%;
@@ -244,7 +255,7 @@ footer{
   line-height: 2;
 }
 
-.link{
+.link {
   text-decoration: none;
   font-family: arial;
   font-size: 21px;
@@ -256,6 +267,7 @@ footer{
          -o-animation: fadein 2s;
             animation: fadein 2s;
 }
+
 .iphone-six{
   width:100%;
   height:500px;
@@ -270,20 +282,20 @@ footer{
   float:left;
   margin-top: 400px;
 }
-
+.icon-space{
+    padding-right: 3px;
+    font-size: 13px;
+}
 /*PIYUSH PRODUCT PAGE STARTS FROM HERE*/
 
 *{
-
   margin: 0px;
   padding: 0px;
 }
 .header{
-
   width: 100%;
-  background: #000;
+  background: #2d2d2d;
   float: left;
-  border-bottom: 1px solid white;
 }
 
 .logo{
@@ -292,9 +304,9 @@ footer{
 
 .logo i{
 
-  margin-left: 25px;
+  margin: 20px 0px 0px 57px;
   color: white;
-  font-size: 55px;
+  font-size: 30px;
 
 }
 
@@ -305,18 +317,17 @@ footer{
 
 .menu{
   float: left;
-  margin-left: 70px;
+  margin-left: 37px;
 }
 
 .menu ul li{
-
   list-style: none;
   float: left;
-  margin-top:17px;
-  padding-left: 40px;
-  padding-top: 15px;
-  padding-bottom: 17px;
-  padding-right: 40px;
+  margin-top: 17px;
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 14px;
+  padding-right: 60px;
   cursor: pointer;
 }
 .menu a{
@@ -327,29 +338,24 @@ footer{
 
 .menu a:hover{
   color:grey;
-
 }
 
 .menu a{
 	color:white;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .searchBar{
-
-  float: left;
+  float: right;
+  margin-top: 19px;
+  margin-right: 39px;
 }
 
 .searchBox{
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    margin-top: 25px;
-    height: 25px;
-    margin-left: 50px;
-    border-radius: 50px 0px 50px 0px;
-    padding-left: 20px;
+  color: #2d2d2d;
+  border-radius: 25px;
+  height: 24px;
 }
 
 .button{
@@ -357,11 +363,10 @@ footer{
     background-color: transparent;
     color: white;
     border: 2px solid white;
-    margin-top: 15px;
     height: 25px;
     width: 50px;
-    border:none;
-    font-size:18px;
+    border: none;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -374,10 +379,9 @@ footer{
   margin-bottom: 50px;
 }
 .product{
-  width:50%;
-  float: left;
-  padding-top: 50px;
-
+	width:50%;
+	float: left;
+	padding-top: 50px;
 }
 
 .animationDot1{
@@ -390,7 +394,6 @@ footer{
   left:284px;
   display: none;
   animation: dotOne 0.5s;
-  /*transition: 0.5s;*/
   animation-fill-mode: forwards;
 }
 .animationDot2{
@@ -416,7 +419,6 @@ footer{
   left:325px;
   animation: dotThree 0.5s;
   animation-fill-mode: forwards;
-
 }
 .product2{
   width:50%;
@@ -426,10 +428,8 @@ footer{
 }
 
 .product-image{
-
   float: left;
   position: relative;
-
 }
 
 .product-image img{
@@ -438,7 +438,6 @@ footer{
   margin-left: 100px;
 }
 .product-image img:hover{
-
   opacity:0.3;
 }
 .product-content{
@@ -548,6 +547,7 @@ footer{
   opacity: 2;
 }
 
+
 .contact-textarea {
       width: 100%;
       padding: 15px;
@@ -572,7 +572,7 @@ footer{
 }
 .footerPara a{
   color: white;
-  float: left; 
+  float: left;
 }
 .fontawesome i{
   line-height: 30px;
@@ -581,16 +581,31 @@ footer{
   text-decoration: none;
     color: white;
 }
-.footersection {
-  float: left;
-  margin-left: 70px;
- /* height: 45px;*/
-  padding-bottom: 50px;
-  padding-top: 50px;
-  width:100%;
-}
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+.banner-image {
+  background-color: #fff;
+  height: 400px;
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+}
+.ban-image {
+  width: 100%;
+  height: 400px;
+}
+.bannertext {
+  width: 30%;
+  color: #000;
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  float: left;
+  margin-left: 20PX;
+  font-family: sans-serif;
+}
+
