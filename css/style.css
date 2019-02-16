@@ -562,14 +562,7 @@ footer{
   text-decoration: none;
     color: white;
 }
-.footersection {
-  float: left;
-  margin-left: 70px;
- /* height: 45px;*/
-  padding-bottom: 50px;
-  padding-top: 50px;
-  width:100%;
-}
+
 .clearfix::after {
   content: "";
   clear: both;
