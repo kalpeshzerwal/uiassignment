@@ -2,74 +2,156 @@
 
 /*All the styles related to your pages while go here */
 /*ANUJA ABOUT PAGE STARTS FROM HERE*/
-.about{
-  text-align: center;
-    margin-left: 550px;
-}
+
 .outside-border {
   margin-top:250px;
   border: 1px solid black;
   width: 50%;
   min-height: 250px;
   margin-left: 83px;
-
-
-}
-.paragraph{
-
+}  
+.paragraph {
+  
   width:100%;
-  margin-top:21px;
+  margin-top:217px;
   float:left;
-  padding:1px;
-  text-align: center;
+  padding:5px;
+  text-align:center;
   background: white;
 
 
 }
-.white-backgrd
-{
+.white-backgrd {
   background-color: white;
-    float: left;
+  float: left;
 }
-.img{
-
-
-  width: 200px;
-  height: 200px;
-  margin: 5px;
-  margin-left: 517px;
-
-
+.img {
+  
+  width: 150px;
+  height: 150px;
+  margin: 45px;
+  margin-left:555px;
+  float: left;
 }
-.tech-container{
+.tech-container {
 
   width:250px;
   margin-top: 10px;
-
   float:left;
   padding:1px;
 }
-.photos{
+.photos img{
 
-  width: 200px;
-  height: 200px;
+  width:19%;
+  height: 19%;
+  float: left;
+  margin-left: 87px;
+  font-size: :80%;
+  text-align: center;
+  padding-bottom: 0.5em;
+
+}
+
+.backgrd {
+ background-color: white;
+ float: left;
+ margin-bottom:150px;
+ height: 454px;
+
+}
+.about-text {
+  width: 50%;
+  height: 50%;
   float: left;
   margin-top: 50px;
-  margin-left: 104px;
-  margin-bottom: 50px;
+}
+.about-text1 {
+  width:100%;
+  float:left;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background-color:white;
+
+}
+.about-text2 {
+  width:100%;
+  float:left;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background-color: white;
+
+}
+.about-margin1 {
+  margin-top: 40px;
+  line-height: 32px;
+  float: left;
+}
+.about-margin2 {
+  margin-top: 4px;
+  line-height:32px; 
+  float: left;
+}
+.about-title {
+  text-align: center;
+  margin-top: 110px;
+  float: :left;
 }
 
-.backgrd{
- background-color: white;
+.about-compny-image {
+  float: left;
+  position: relative;
 
 }
+.aboutus-block {
+  position: absolute;
+  float:left;
+  color: white;
+  bottom: 20px;
+  left: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 347%;
+  margin-bottom: 399px;
+  margin-left: 520px;
+  animation: mymove 5s;
+  animation-fill-mode:forwards;
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 135px;}
+}
+.overview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  margin-top: 0px;
+    margin-bottom: 14px;
+    padding-left: 17px;
+}
+.about-photos img {
+  width :150px;
+  height:150px;
+  float:left;
+  margin-left: 20px;
+}
+.about-photos {
+  width: 15%;
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.about-label{
+  
+  padding-left: 39px;
 
+}
 /*/*All the styles related to your pages while go here */
 
 /*ASHISH HOME PAGE STARTS FROM HERE*/
 
 body {
- background-image: url("../images/home.jpg");
+  background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: inherit;
@@ -85,15 +167,15 @@ footer{
 }
 .footer-li{
   list-style: none;
-  float: left;
- /* margin-top:30px;*/
-  padding-left: 70px;
+  float: right;
+  margin-top:30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .footer-links{
   text-decoration: none;
   color: white;
-
 }
 
 .left-div{
@@ -193,6 +275,7 @@ footer{
   padding: 0px;
 }
 .header{
+
   width: 100%;
   background: #000;
   float: left;
@@ -204,9 +287,11 @@ footer{
 }
 
 .logo i{
+
   margin-left: 25px;
   color: white;
   font-size: 55px;
+
 }
 
 .about-footer
@@ -220,14 +305,16 @@ footer{
 }
 
 .menu ul li{
+
   list-style: none;
   float: left;
   margin-top:17px;
   padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 17px;
   padding-right: 40px;
   cursor: pointer;
 }
-
 .menu a{
   color:white;
   text-decoration: none;
@@ -239,7 +326,14 @@ footer{
 
 }
 
+.menu a{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
 .searchBar{
+
   float: left;
 }
 
@@ -247,60 +341,26 @@ footer{
     background-color: transparent;
     color: white;
     border: 2px solid white;
-    margin-top: 10px;
+    margin-top: 25px;
     height: 25px;
     margin-left: 50px;
-    border-radius: 150px 150px 150px 150px;
+    border-radius: 50px 0px 50px 0px;
     padding-left: 20px;
-
 }
 
 .button{
+
     background-color: transparent;
     color: white;
+    border: 2px solid white;
     margin-top: 15px;
     height: 25px;
     width: 50px;
-    border: none;
-    font-size: 18px;
+    border:none;
+    font-size:18px;
     cursor: pointer;
 }
 
-.button:hover
-{
-   opacity: 0.5;
-}
-
-.headerLinks
-{
-  width: 209px;
-    border: 2px solid white;
-    float: left;
-    height: 44px;
-    color: white;
-    border-radius: 27px 27px 27px 27px;
-    border-top: none;
-    margin-left: 50px;
-}
-.fontawesome
-{
-  font-size: 18px;
-  float: left;
-  height: 30px;
-  margin-left: 29px;
-  border: 2px solid white;
-  width: 30px;
-  text-align: center;
-  border-radius: 50%;
-  line-height: 31.5px;
-  margin-top: 5px;
-}
-
-.fontawesome:hover
-{
-  background: white;
-  color: black;
-}
 
 .parent{
   width: 100%;
@@ -354,47 +414,18 @@ footer{
   animation-fill-mode: forwards;
 
 }
-
-@keyframes dotOne
-{
-  from {top:120px;}
-  to { top:114px;}
-}
-@keyframes dotTwo
-{
-  from {top:128px;}
-  to { top:114px;}
-}
-@keyframes dotThree
-{
-  from {top:137px;}
-  to { top:114px;}
-}
-
-.product-image:hover .animationDot1
-{
-  display: block;
-}
-.product-image:hover .animationDot2
-{
-  display: block;
-}
-.product-image:hover .animationDot3
-{
-  display: block;
-}
-
 .product2{
   width:50%;
   float: left;
   padding-top: 50px;
   margin-bottom: 50px;
-
 }
 
 .product-image{
+
   float: left;
   position: relative;
+
 }
 
 .product-image img{
@@ -403,6 +434,7 @@ footer{
   margin-left: 100px;
 }
 .product-image img:hover{
+
   opacity:0.3;
 }
 .product-content{
