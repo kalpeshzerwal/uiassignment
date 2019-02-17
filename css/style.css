@@ -325,9 +325,10 @@ footer{
   padding-left: 35px;
   padding-top: 8px;
   padding-bottom: 14px;
-  padding-right: 60px;
+  padding-right: 24px;
   cursor: pointer;
   margin-top: 15px;
+
 }
 
 .menu a {
@@ -601,25 +602,6 @@ footer{
   background-color:#1e272e;
 }
 
-.fontawesome1 li {
-  float:right;
-  display: inline-block
-}
-
-.fontawesome1 i {
-  float: left;
-  font-size: 18px;
-  padding:auto;
-  width: 20px;
-  height: 20px;
-  margin: 0 15px 15px 0;
-}
-
-.footer-li a:hover {
-  color: gray;
-  border:1px dotted white;
-}
-
 .contact-body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
@@ -699,6 +681,7 @@ footer{
   visibility: hidden;
   opacity: 1;
   margin-left:25px;
+
 }
   
 .dropdownmenu ul ul ul {
@@ -729,7 +712,6 @@ footer{
   float:left;
 }
 
-<<<<<<< HEAD
 .fdivisionone .divone {
   padding-top: 10px;
 }
