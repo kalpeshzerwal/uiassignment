@@ -176,12 +176,11 @@ body {
   background-size: cover;
 }
 footer{
-  background-color: black;
-  width:100%;
-  height: 100px;
-  bottom:0px;
+  background-color:#22292F;
+  width:100%;  
+  margin:50px 0 3px 0;
   float: left;
-  margin-top: 200px;
+  border:1px dotted gray;
 }
 .footer-li{
   list-style: none;
@@ -326,9 +325,10 @@ footer{
   padding-left: 35px;
   padding-top: 8px;
   padding-bottom: 14px;
-  padding-right: 60px;
+  padding-right: 24px;
   cursor: pointer;
   margin-top: 15px;
+
 }
 
 .menu a {
@@ -584,43 +584,10 @@ footer{
 /*KALPESH CONTACT PAGE STARTS FROM HERE*/
 
 .contact_whitebackgrd{
-
   background-color:#1e272e;
-
 }
 .contact_backgrd{
-   background-color:#1e272e;
-}
-
-.fontawesome1 li {
-  float:right;
-  display: inline-block
- /* font-size: 18px;*/
-  /*float: right;*/
-  /*height: 30px;*/
-/*  margin-left: 29px;*/
- /* border: 2px solid white;*/
- /* width: 30px;*/
-  /*color:white;*/
- /* text-align: center;*/
- /* border-radius: 50%;*/
-  /*line-height: 31.5px;*/
-  /*margin-top: 5px;*/
-}
-
-.fontawesome1 i {
-  float: left;
-  font-size: 18px;
-  padding:auto;
-  width: 20px;
-  height: 20px;
-  margin: 0 15px 15px 0;
-}
-
-.footer-li a:hover {
- /* background: white;*/
-  color: gray;
-  border:1px dotted white;
+  background-color:#1e272e;
 }
 
 .contact-body {
@@ -663,39 +630,177 @@ footer{
 
 
 .contact-textarea {
-      width: 100%;
-      padding: 15px;
-      margin: 5px 0 22px 0;
-      display: inline-block;
-      border: none;
-      background: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
 
-.contact-footer1 {
-  margin-right:58px;
-  font-size: 22px;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.footer-li1 {
-  list-style: none;
-  float: right;
-  margin-top:0px;
-  padding-left: 40px;
-  padding-right: 40px;
-
-}
-.footerPara a{
-  color: white;
+.dropdownmenu ul {
+  background: #2d2d2d;
   float: left;
 }
-.fontawesome i{
-  line-height: 30px;
-}
-.contact-footer1 {
-  text-decoration: none;
-    color: white;
+  
+.dropdownmenu li {
+  float: left;
+  position: relative;
+  list-style: none;
+  color: white;
 }
 
+.dropdownmenu a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.dropdownmenu ul ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  visibility: hidden;
+  opacity: 1;
+  margin-left:25px;
+
+}
+  
+.dropdownmenu ul ul ul {
+  left: 80%;
+  top: -16px;
+}
+   
+.dropdownmenu li:hover, .dropdownmenu li:hover li {
+  color:white;
+}
+  
+.dropdownmenu li li:hover, .dropdownmenu li li:hover li {
+  background: #2d2d2d;
+}
+  
+.dropdownmenu li li li:hover {
+  background: #2d2d2d;
+}    
+  
+.dropdownmenu li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}   
+   /*footer property started from here*/
+
+.fdivisionone {
+  width:50%;
+  float:left;
+}
+
+.fdivisionone .divone {
+  padding-top: 10px;
+}
+
+.divone {
+  width:13%;
+  padding-left: 8%;
+  padding-top:5px;
+  color:white;
+  list-style-type:none;
+}
+
+.divone li a {
+  color:white;
+  text-decoration:none;  
+}
+ 
+.apple  {
+  font-size:20px;
+ 
+} 
+
+.divone li {
+  padding:2px 0px;
+  
+}
+
+.divtwo { 
+  margin-left: 152px;
+  margin-top: -120px;
+  padding-left: 29%;
+  color:white;
+  list-style-type:none;
+ }
+
+.divtwo .business {
+  font-size:20px;
+}
+
+.business {
+  margin:12px 0px;
+ }
+
+ .fdivisiontwo {
+  width: 45%;
+  float:right;
+  /*padding-left: 500px;*/
+}
+
+.divthree {
+  padding-top: 13px;
+  color:white;
+  list-style-type:none;
+  width:28%;
+}
+
+.divthree .Gettouch {
+  font-size:20px;
+}
+
+.Gettouch {
+  margin:12px 0px;
+}
+
+.divfour a {
+  color:white;
+  text-decoration:none;
+}
+
+.divfour {
+  margin-left: 152px;
+  margin-top: -105px;
+  padding-left: 29%;
+  color:white;
+  list-style-type:none;
+ }
+
+.divicon li {
+  display:inline;
+  float: left;
+  margin: 0 20px 10px 0;
+  padding-top: 10px;
+}
+
+.divicon li:hover {
+  color: #444c47;
+  border: 1px dotted gray;
+  display:inline-block;
+} 
+.divicon li:hover i {
+  color:gray;
+}
+@media only screen and (max-width: 1024px) {
+.contact-container1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 9%;
+  margin-top: 29%;
+  float: left;
+ }
+}
 .clearfix::after {
   content: "";
   clear: both;
@@ -795,3 +900,4 @@ Banner image and slide show
     transform: translateX(0);
   }
 }
+
